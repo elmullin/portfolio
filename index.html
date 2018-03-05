@@ -1,1 +1,538 @@
-hi
+<head>
+
+<meta name="image:sidebar" content="">
+<meta name="image:background" content="">
+
+<meta name="color:text" content="#ffffff">
+<meta name="color:background" content="#090b19">
+<meta name="color:links" content="#dbd2dd">
+<meta name="color:hover" content="#ffd38f">
+<meta name="color:bold" content="#ffffff">
+<meta name="color:italic" content="#ffffff">
+<meta name="color:post background" content="#21243a">
+<meta name="color:post tags background" content="#21243a">
+<meta name="color:post info" content="#49374f">
+<meta name="color:accent1" content="#8a648d">
+<meta name="color:accent2" content="#c7accb">
+<meta name="color:accent3" content="#ffd38f">
+<meta name="color:post back" content="#131327">
+<meta name="color:sidebar" content="#49374f">
+<meta name="color:description" content="#dbd8de">
+
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+<style type="text/css">
+    
+body {
+    background-color: {color:background};
+    background-image: url("https://elmullin.github.io/portfolio/back.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Georgia', sans-serif;
+    font-size: 12px;
+    color: {color:text};
+}
+
+a {
+    text-decoration: none;
+    color: {color:links} !important;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+a:hover {
+    color: {color:hover} !important;
+}
+
+b, strong {
+    color: {color:bold};
+}
+
+i, em {
+    color: {color:italic};
+}
+
+.quotetext {
+    font-size: 16px;
+    color: {color:quote text};
+}
+
+.posts {
+    padding-top: 30px;
+    position: absolute;
+    margin-left: 480px;
+    width: 500px;
+    opacity: 1;
+    z-index: 10;
+}
+
+.postbackground {
+    position: fixed;
+    margin-left: 470px;
+    margin-top: -20px;
+    width: 520px;
+    background: {color:post back};
+    height: 120%;
+    z-index: 5;
+}
+
+.posttext {
+    background: {color:post background};
+    padding: 2px 2px 2px 2px;
+}
+
+.posttags {
+    background: {color:post tags background};
+    padding: 2px 2px 2px 2px;
+    font-size: 10px;
+}
+
+.postnotes {
+    background: {color:post background};
+    padding: 2px 2px 2px 2px;
+}
+
+.posttitle {
+    font-size: 14px;
+    font-style: bold;
+    border-color: {color:accent1};
+    border-style: solid;
+    border-width: 0 0 1px 0;
+}
+
+.postinfo {
+    position: absolute;
+    background: {color:post info};
+    margin-left: 500px;
+    padding: 5px 2px 5px 2px;
+    width: 120px;
+    border-color: {color:accent1};
+    border-style: solid;
+    border-width: 0 0 1px 0;
+}
+
+.verticalbar {
+    position: fixed;
+    background: {color:accent1};
+    margin-left: 451px;
+    margin-top: -10px;
+    width: 19px;
+    height: 120%;
+}
+
+.verticalbar2 {
+    position: fixed;
+    background: {color:accent2};
+    margin-left: 450px;
+    margin-top: -10px;
+    width: 2px;
+    height: 120%;
+}
+
+.sidepic {
+    position: fixed;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.side {
+    position: fixed;
+    margin-top: 244px;
+    margin-left: 452px;
+}
+
+.titlebar2 {
+    position: relative;
+    margin-top: 0px;
+    margin-left: -87px;
+    height: 2px;
+    width: 85px;
+    background-color: {color:accent2};
+}
+
+.title {
+    position: relative;
+    margin-top: 0px;
+    margin-left: -112px;
+    height: 18px;
+    width: 104px;
+    padding: 2px 4px 2px 4px;
+    font-size: 14px;
+    background-color: {color:accent1};
+}
+
+.titlebar {
+    position: relative;
+    margin-top: 0px;
+    margin-left: -142px;
+    height: 2px;
+    width: 160px;
+    background-color: {color:accent2};
+}
+
+.sidebar {
+    position: relative;
+    margin-top: 0;
+    margin-left: -132px;
+    width: 126px;
+    padding: 4px 4px 4px 0;
+    text-align: right;
+    background-color: {color:sidebar};
+    color: {color:description};
+}
+
+.pages {
+    position: relative;
+    margin-top: 21px;
+    margin-left: -46px;
+    width: 40px;
+    padding: 0 2px 0 2px;
+    text-align: center;
+    background-color: {color:sidebar};
+    color: {color:description};
+}
+
+.navline3 {
+    position: relative;
+    height: 2px;
+    width: 53px;
+    margin-top: 0px;
+    margin-left: -35px;
+    background-color: {color:accent2}; 
+}
+
+.navline1 {
+    position: relative;
+    height: 2px;
+    width: 110px;
+    margin-top: 9px;
+    margin-left: -92px;
+    background-color: {color:accent2};
+}
+
+.navigation {
+    position: relative;
+    margin-top: 0px;
+    margin-left: -3px;
+    width: 20px;
+    padding: 3px 2px;
+    /*text*/
+    color: {color:text};
+    text-align: center;
+    font-size: 18px;
+}
+
+.navigation2 {
+    position: relative;
+    margin-top: 0px;
+    margin-left: 1px;
+    padding: 0px 0px 7px 0px;
+}
+
+.home {
+    position: relative;
+    margin-top: 4px;
+    height: 20px;
+    width: 20px;
+    padding 0px 2px;
+}
+
+.signh {
+    float: center;
+    height: 0;
+    width: 0;
+    padding: 0px 2px;
+    color: {color:accent3} !important;
+}
+
+#navlink1 {
+    position: absolute;
+    width: 0;
+    padding: 4px;
+    opacity: 0;
+    /*text*/
+    font-size: 12px;
+    text-overflow: clip;
+    overflow: hidden;
+    /*transition*/
+    -webkit-transition:all 0.5s;
+    -moz-transition:all 0.5s;
+    -ms-transition:all 0.5s;
+    -o-transition:all 0.5s;
+    transition:all 0.5s;
+}
+
+.home:hover #navlink1 {
+    width: 60px;
+    margin-left: -80px;
+    opacity: 1;
+    color: {color:accent3};
+    text-overflow: clip;
+    overflow: hidden;
+}
+
+.ask {
+    position: relative;
+    margin-top: 6px;
+    height: 20px;
+    width: 20px;
+    padding 0px 2px;
+}
+
+.signa {
+    float: center;
+    height: 0;
+    width: 0;
+    padding: 0px 2px;
+    color: {color:accent3} !important;
+}
+
+#navlink2 {
+    position: absolute;
+    width: 0;
+    padding: 4px;
+    opacity: 0;
+    /*text*/
+    font-size: 12px;
+    text-overflow: clip;
+    overflow: hidden;
+    /*transition*/
+    -webkit-transition:all 0.5s;
+    -moz-transition:all 0.5s;
+    -ms-transition:all 0.5s;
+    -o-transition:all 0.5s;
+    transition:all 0.5s;
+}
+
+.ask:hover #navlink2 {
+    width: 60px;
+    margin-left: -80px;
+    opacity: 1;
+    color: {color:accent3};
+    text-overflow: clip;
+    overflow: hidden;
+}
+
+.submit {
+    position: relative;
+    margin-top: 6px;
+    height: 20px;
+    width: 20px;
+    padding 0px 2px;
+}
+
+.signs {
+    float: center;
+    height: 0;
+    width: 0;
+    padding: 0px 2px;
+    color: {color:accent3} !important;
+}
+
+#navlink3 {
+    position: absolute;
+    width: 0;
+    padding: 4px;
+    opacity: 0;
+    /*text*/
+    font-size: 12px;
+    text-overflow: clip;
+    overflow: hidden;
+    /*transition*/
+    -webkit-transition:all 0.5s;
+    -moz-transition:all 0.5s;
+    -ms-transition:all 0.5s;
+    -o-transition:all 0.5s;
+    transition:all 0.5s;
+}
+
+.submit:hover #navlink3 {
+    width: 60px;
+    margin-left: -80px;
+    opacity: 1;
+    color: {color:accent3};
+    text-overflow: clip;
+    overflow: hidden;
+}
+
+.rules {
+    position: relative;
+    margin-top: 6px;
+    height: 20px;
+    width: 20px;
+    padding 0px 2px;
+}
+
+.signr {
+    float: center;
+    height: 0;
+    width: 0;
+    padding: 0px 2px;
+    color: {color:accent3} !important;
+    font-family: 'Georgia', sans-serif !important;
+}
+
+#navlink4 {
+    position: absolute;
+    width: 0;
+    padding: 4px;
+    opacity: 0;
+    /*text*/
+    font-size: 12px;
+    text-overflow: clip;
+    overflow: hidden;
+    /*transition*/
+    -webkit-transition:all 0.5s;
+    -moz-transition:all 0.5s;
+    -ms-transition:all 0.5s;
+    -o-transition:all 0.5s;
+    transition:all 0.5s;
+}
+
+.rules:hover #navlink4 {
+    width: 60px;
+    margin-left: -80px;
+    opacity: 1;
+    color: {color:accent3};
+    text-overflow: clip;
+    overflow: hidden;
+}
+
+.nav {
+    position: relative;
+    margin-top: 6px;
+    height: 20px;
+    width: 20px;
+    padding 0px 2px;
+}
+
+.signn {
+    float: center;
+    height: 0;
+    width: 0;
+    padding: 0px 2px;
+    color: {color:accent3} !important;
+}
+
+#navlink5 {
+    position: absolute;
+    width: 0;
+    padding: 2px;
+    opacity: 0;
+    /*text*/
+    font-size: 12px;
+    text-overflow: clip;
+    overflow: hidden;
+    /*transition*/
+    -webkit-transition:all 0.5s;
+    -moz-transition:all 0.5s;
+    -ms-transition:all 0.5s;
+    -o-transition:all 0.5s;
+    transition:all 0.5s;
+}
+
+.nav:hover #navlink5 {
+    width: 60px;
+    margin-left: -80px;
+    opacity: 1;
+    color: {color:accent3};
+    text-overflow: clip;
+    overflow: hidden;
+}
+
+.navline2 {
+    position: relative;
+    height: 2px;
+    width: 70px;
+    margin-top: 0px;
+    margin-left: -52px;
+    background-color: {color:accent2}; 
+}
+
+.horizontalbar {
+    background: {color:accent1};
+    margin-left: 10%;
+    width: 80%;
+    height: 1px;
+}
+
+</style>
+</head>
+
+<body>
+<div class="verticalbar"></div>
+<div class="verticalbar2"></div>
+
+<div class="sidepic">
+    <img src="">
+</div>
+
+<div class="side">
+    <div class="titlebar2"></div>
+    <div class="title">
+        <b>{Title}</b>
+    </div>
+    <div class="titlebar"></div>
+    <div class="sidebar">
+            {Description}
+    </div>
+
+    <div class="pages">
+        {block:PreviousPage}
+            <a href="">&lArr;</a> 
+        {block:NextPage}&bull;{/block:NextPage} 
+        {/block:PreviousPage}
+        {block:NextPage}
+            <a href="">&rArr;</a>
+        {/block:NextPage}
+    </div>
+    
+    <div class="navline3"></div>
+    
+    <div class="navline1"></div>
+    
+    <div class="navigation">
+        &#9738
+        <div class="navigation2" style="text-overflow:clip;">
+            <div class="home">
+                <a href="/"><div class="signh">&#x2727</div>
+                <div id="navlink1">Home</div></a>
+            </div>
+            
+            <div class="ask">
+                <a href="/ask"><div class="signa">&#x2727</div>
+                <div id="navlink2">Ask</div></a>
+            </div>
+            
+            <div class="submit">
+                <a href="/submit"><div class="signs">&#x2727</div>
+                <div id="navlink3">Submit</div></a>
+            </div>
+            
+            <div class="rules">
+                <a href="/rules"><div class="signr">&#x2727</div>
+                <div id="navlink4">Rules</div></a>
+            </div>
+            
+            <div class="nav">
+                <a href="/nav"><div class="signn">&#x2727</div>
+                <div id="navlink5">Nav</div></a>
+            </div>
+        </div>
+        &#9739
+    </div>
+
+    <div class="navline2"></div>
+</div>
+
+<div class="postbackground"></div>
+<div class="posts">
+    
+
+</div>
+</body>
+</html>
