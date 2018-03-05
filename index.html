@@ -26,6 +26,18 @@
 :root {
     --background: #090b19;
     --links: #dbd2dd;
+    --hover: #ffd38f;
+    --bold: #ffffff;
+    --italic: #ffffff;
+    --post-background: #21243a;
+    --post-tags-background: #21234a;
+    --post-info: #49374f;
+    --accent1: #8a648d;
+    --accent2: #c7accb;
+    --accent3: #ffd38f;
+    --post-back: #131327;
+    --sidebar: #49374f;
+    --description: #dbd8de;
 }
     
 body {
@@ -50,20 +62,19 @@ a {
 }
 
 a:hover {
-    color: {color:hover} !important;
+    color: var(--hover) !important;
 }
 
 b, strong {
-    color: {color:bold};
+    color: var(--bold);
 }
 
 i, em {
-    color: {color:italic};
+    color: var(--italic);
 }
 
 .quotetext {
     font-size: 16px;
-    color: {color:quote text};
 }
 
 .posts {
@@ -80,49 +91,49 @@ i, em {
     margin-left: 470px;
     margin-top: -20px;
     width: 520px;
-    background: {color:post back};
+    background: var(--post-background);
     height: 120%;
     z-index: 5;
 }
 
 .posttext {
-    background: {color:post background};
+    background: var(--post-background);
     padding: 2px 2px 2px 2px;
 }
 
 .posttags {
-    background: {color:post tags background};
+    background: var(--post-tags-background);
     padding: 2px 2px 2px 2px;
     font-size: 10px;
 }
 
 .postnotes {
-    background: {color:post background};
+    background: var(--post-background);
     padding: 2px 2px 2px 2px;
 }
 
 .posttitle {
     font-size: 14px;
     font-style: bold;
-    border-color: {color:accent1};
+    border-color: var(--accent1);
     border-style: solid;
     border-width: 0 0 1px 0;
 }
 
 .postinfo {
     position: absolute;
-    background: {color:post info};
+    background: var(--post-info);
     margin-left: 500px;
     padding: 5px 2px 5px 2px;
     width: 120px;
-    border-color: {color:accent1};
+    border-color: var(--accent1);
     border-style: solid;
     border-width: 0 0 1px 0;
 }
 
 .verticalbar {
     position: fixed;
-    background: {color:accent1};
+    background: var(--accent1);
     margin-left: 451px;
     margin-top: -10px;
     width: 19px;
@@ -131,7 +142,7 @@ i, em {
 
 .verticalbar2 {
     position: fixed;
-    background: {color:accent2};
+    background: var(--accent2);
     margin-left: 450px;
     margin-top: -10px;
     width: 2px;
@@ -156,7 +167,7 @@ i, em {
     margin-left: -87px;
     height: 2px;
     width: 85px;
-    background-color: {color:accent2};
+    background-color: var(--accent2);
 }
 
 .title {
@@ -167,7 +178,7 @@ i, em {
     width: 104px;
     padding: 2px 4px 2px 4px;
     font-size: 14px;
-    background-color: {color:accent1};
+    background-color: var(--accent1);
 }
 
 .titlebar {
@@ -176,7 +187,7 @@ i, em {
     margin-left: -142px;
     height: 2px;
     width: 160px;
-    background-color: {color:accent2};
+    background-color: var(--accent2);
 }
 
 .sidebar {
@@ -186,8 +197,8 @@ i, em {
     width: 126px;
     padding: 4px 4px 4px 0;
     text-align: right;
-    background-color: {color:sidebar};
-    color: {color:description};
+    background-color: var(--sidebar);
+    color: var(--description);
 }
 
 .pages {
@@ -197,8 +208,8 @@ i, em {
     width: 40px;
     padding: 0 2px 0 2px;
     text-align: center;
-    background-color: {color:sidebar};
-    color: {color:description};
+    background-color: var(--sidebar);
+    color: var(--description);
 }
 
 .navline3 {
@@ -207,7 +218,7 @@ i, em {
     width: 53px;
     margin-top: 0px;
     margin-left: -35px;
-    background-color: {color:accent2}; 
+    background-color: var(--accent2); 
 }
 
 .navline1 {
@@ -216,7 +227,7 @@ i, em {
     width: 110px;
     margin-top: 9px;
     margin-left: -92px;
-    background-color: {color:accent2};
+    background-color: var(--accent2);
 }
 
 .navigation {
@@ -226,7 +237,7 @@ i, em {
     width: 20px;
     padding: 3px 2px;
     /*text*/
-    color: {color:text};
+    color: var(--text);
     text-align: center;
     font-size: 18px;
 }
@@ -251,7 +262,7 @@ i, em {
     height: 0;
     width: 0;
     padding: 0px 2px;
-    color: {color:accent3} !important;
+    color: var(--accent3) !important;
 }
 
 #navlink1 {
@@ -275,7 +286,7 @@ i, em {
     width: 60px;
     margin-left: -80px;
     opacity: 1;
-    color: {color:accent3};
+    color: var(--accent3);
     text-overflow: clip;
     overflow: hidden;
 }
@@ -293,7 +304,7 @@ i, em {
     height: 0;
     width: 0;
     padding: 0px 2px;
-    color: {color:accent3} !important;
+    color: var(--accent3) !important;
 }
 
 #navlink2 {
@@ -317,7 +328,7 @@ i, em {
     width: 60px;
     margin-left: -80px;
     opacity: 1;
-    color: {color:accent3};
+    color: var(--accent3);
     text-overflow: clip;
     overflow: hidden;
 }
@@ -335,7 +346,7 @@ i, em {
     height: 0;
     width: 0;
     padding: 0px 2px;
-    color: {color:accent3} !important;
+    color: var(--accent3) !important;
 }
 
 #navlink3 {
@@ -359,7 +370,7 @@ i, em {
     width: 60px;
     margin-left: -80px;
     opacity: 1;
-    color: {color:accent3};
+    color: var(--accent3);
     text-overflow: clip;
     overflow: hidden;
 }
@@ -377,7 +388,7 @@ i, em {
     height: 0;
     width: 0;
     padding: 0px 2px;
-    color: {color:accent3} !important;
+    color: var(--accent3) !important;
     font-family: 'Georgia', sans-serif !important;
 }
 
@@ -402,7 +413,7 @@ i, em {
     width: 60px;
     margin-left: -80px;
     opacity: 1;
-    color: {color:accent3};
+    color: var(--accent3);
     text-overflow: clip;
     overflow: hidden;
 }
@@ -420,7 +431,7 @@ i, em {
     height: 0;
     width: 0;
     padding: 0px 2px;
-    color: {color:accent3} !important;
+    color: var(--accent3) !important;
 }
 
 #navlink5 {
@@ -444,7 +455,7 @@ i, em {
     width: 60px;
     margin-left: -80px;
     opacity: 1;
-    color: {color:accent3};
+    color: var(--accent3);
     text-overflow: clip;
     overflow: hidden;
 }
@@ -455,11 +466,11 @@ i, em {
     width: 70px;
     margin-top: 0px;
     margin-left: -52px;
-    background-color: {color:accent2}; 
+    background-color: var(--accent3); 
 }
 
 .horizontalbar {
-    background: {color:accent1};
+    background: var(--accent1);
     margin-left: 10%;
     width: 80%;
     height: 1px;
@@ -483,17 +494,13 @@ i, em {
     </div>
     <div class="titlebar"></div>
     <div class="sidebar">
-            {Description}
+            hey
     </div>
 
     <div class="pages">
-        {block:PreviousPage}
             <a href="">&lArr;</a> 
-        {block:NextPage}&bull;{/block:NextPage} 
-        {/block:PreviousPage}
-        {block:NextPage}
+        &bull; 
             <a href="">&rArr;</a>
-        {/block:NextPage}
     </div>
     
     <div class="navline3"></div>
