@@ -10,6 +10,8 @@
     --sidebar-link-txt: #888888;
     --sidebar-link-bg-h: #444444;
     --sidebar-link-txt-h: #ffffff;
+    --sidebar-link-bg-c: #ffffff;
+    --sidebar-link-txt-c: #000000;
 }
 
 body {
@@ -39,6 +41,13 @@ body {
 .sidebar-link:hover {
     background-color: var(--sidebar-link-bg-h);
     color: var(--sidebar-link-txt-h);
+    width: 200px;
+    padding-left: 50px;
+}
+
+.sidebar-link:active {
+    background-color: var(--sidebar-link-bg-c);
+    color: var(--sidebar-link-txt-c);
     width: 200px;
     padding-left: 50px;
 }
