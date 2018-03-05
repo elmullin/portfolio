@@ -6,6 +6,8 @@
     --main-bg: #c47;
     --sidebar-bg: #ffffff;
     --sidebar-txt: #000000;
+    --sidebar-link-bg: #22222;
+    --sidebar-link-txt: #888888;
 }
 
 body {
@@ -17,9 +19,17 @@ body {
     position: absolute;
     background-color: var(--sidebar-bg);
     color: var(--sidebar-txt);
-    margin: -30px 0px 0px -30px;
+    margin: -20px 0px 0px -10px;
     width: 130px;
     height: 120%;
+}
+
+.sidebar-link {
+    position: relative;
+    background-color: var(--sidebar-link-bg);
+    color: var(--sidebar-link-txt);
+    height: 20px;
+    padding-left: 10px;
 }
 
 .maintext {
@@ -33,7 +43,9 @@ body {
 
 <body>
     <div class="sidebar">
-        sidebar
+        <div class="sidebar-link">
+            sidebar
+        </div>
     </div>
 
     <div class="maintext">
