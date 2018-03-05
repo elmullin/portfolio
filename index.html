@@ -33,7 +33,6 @@ body {
     position: relative;
     background-color: var(--sidebar-link-bg);
     color: var(--sidebar-link-txt);
-    text-decoration: none !important;
     height: 30px;
     width: 110px;
     padding-left: 20px;
@@ -43,6 +42,10 @@ body {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition:.5s;
+}
+
+a sidebar-link {
+    text-decoration: none;
 }
 
 .sidebar-link:hover {
@@ -75,6 +78,8 @@ body {
 </style></head>
 
 <body>
+    <div class="verticalline1"></div>
+
     <div class="sidebar">
         <a href="http://github.com">
             <div class="sidebar-link">
