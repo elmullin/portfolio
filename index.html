@@ -22,9 +22,14 @@
 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
 <style type="text/css">
+
+:root {
+    --background: #090b19;
+    --links: #dbd2dd;
+}
     
 body {
-    background-color: {color:background};
+    background-color: var(--background);
     background-image: url("https://elmullin.github.io/portfolio/back.png");
     background-position: left top;
     background-repeat: no-repeat;
@@ -36,7 +41,7 @@ body {
 
 a {
     text-decoration: none;
-    color: {color:links} !important;
+    color: var(--links) !important;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
