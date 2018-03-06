@@ -29,6 +29,10 @@ body {
     height: 120%;
 }
 
+.sidebar-info{
+    padding: 300px 0px 30px 10px;
+}
+
 .sidebar-link {
     position: relative;
     background-color: var(--sidebar-link-bg);
@@ -64,23 +68,23 @@ body {
 .maintext {
     background-color: var(--main-bg);
     margin: 20px 0px 0px 200px;
-    width: 200px;
-    height: 200px;
+    width: 800px;
+    height: 600px;
 }
 
 .verticalline1 {
     position: fixed;
     background-color: var(--accent1);
-    margin: 10% 0px 0px 130px;
-    width: 3px;
+    margin: 5% 0px 0px 130px;
+    width: 4px;
     height: 80%;
 }
 
 .verticalline2 {
     position: fixed;
     background-color: var(--accent1);
-    margin: 20% 0px 0px 140px;
-    width: 3px;
+    margin: 10% 0px 0px 140px;
+    width: 4px;
     height: 60%;
 }
 
@@ -91,14 +95,21 @@ body {
     <div class="verticalline2"></div>
 
     <div class="sidebar">
+        <div class="sidebar-info">
+            sidebar info here
+        </div>
+
         <a href="http://github.com">
             <div class="sidebar-link">
                 LINK 1
             </div>
         </a>
-        <div class="sidebar-link">
-            LINK 2
-        </div>
+
+        <a href="">
+            <div class="sidebar-link">
+                LINK 2
+            </div>
+        </a>
     </div>
 
     <div class="maintext">
