@@ -5,11 +5,11 @@ function displayDiv1() {
     var fourth = document.getElementById("imagecontent4")
     var fifth = document.getElementById("imagecontent5")
 
-    first.style.zIndex = 10;
-    second.style.zIndex = 0;
-    third.style.zIndex = 0;
-    fourth.style.zIndex = 0;
-    fifth.style.zIndex = 0;
+    first.style.display = "block";
+    second.style.display = "none";
+    third.style.display = "none";
+    fourth.style.display = "none";
+    fifth.style.display = "none";
 }
 
 function displayDiv2() {
@@ -19,11 +19,11 @@ function displayDiv2() {
     var fourth = document.getElementById("imagecontent4")
     var fifth = document.getElementById("imagecontent5")
 
-    first.style.zIndex = 0;
-    second.style.zIndex = 10;
-    third.style.zIndex = 0;
-    fourth.style.zIndex = 0;
-    fifth.style.zIndex = 0;
+    first.style.display = "none";
+    second.style.display = "block";
+    third.style.display = "none";
+    fourth.style.display = "none";
+    fifth.style.display = "none";
 }
 
 function displayDiv3() {
@@ -33,11 +33,11 @@ function displayDiv3() {
     var fourth = document.getElementById("imagecontent4")
     var fifth = document.getElementById("imagecontent5")
 
-    first.style.zIndex = 0;
-    second.style.zIndex = 0;
-    third.style.zIndex = 10;
-    fourth.style.zIndex = 0;
-    fifth.style.zIndex = 0;
+    first.style.display = "none";
+    second.style.display = "none";
+    third.style.display = "block";
+    fourth.style.display = "none";
+    fifth.style.display = "none";
 }
 
 function displayDiv4() {
@@ -47,11 +47,11 @@ function displayDiv4() {
     var fourth = document.getElementById("imagecontent4")
     var fifth = document.getElementById("imagecontent5")
 
-    first.style.zIndex = 0;
-    second.style.zIndex = 0;
-    third.style.zIndex = 0;
-    fourth.style.zIndex = 10;
-    fifth.style.zIndex = 0;
+    first.style.display = "none";
+    second.style.display = "none";
+    third.style.display = "none";
+    fourth.style.display = "block";
+    fifth.style.display = "none";
 }
 
 function displayDiv5() {
@@ -61,9 +61,9 @@ function displayDiv5() {
     var fourth = document.getElementById("imagecontent4")
     var fifth = document.getElementById("imagecontent5")
 
-    first.style.zIndex = 0;
-    second.style.zIndex = 0;
-    third.style.zIndex = 0;
-    fourth.style.zIndex = 0;
-    fifth.style.zIndex = 10;
+    first.style.display = "none";
+    second.style.display = "none";
+    third.style.display = "none";
+    fourth.style.display = "block";
+    fifth.style.display = "none";
 }

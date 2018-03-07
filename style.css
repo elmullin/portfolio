@@ -87,68 +87,53 @@ body {
     height: 560px;
 }
 
-#imagecontent1 {
+.maincontent{
     position: fixed;
     background-color: var(--main-bg);
     text-align: center;
-    z-index: 10;
+    z-index: -1;
     margin: 50px 0px 0px 300px;
     padding: 20px 20px 20px 20px;
     width: 760px;
     height: 560px;
+}
+
+#imagecontent1 {
+    position: relative;
+    display: block;
 }
 
 #imagecontent2 {
-    position: fixed;
-    background-color: var(--main-bg);
-    text-align: center;
-    z-index: 0;
-    margin: 50px 0px 0px 300px;
-    padding: 20px 20px 20px 20px;
-    width: 760px;
-    height: 560px;
+    position: relative;
+    display: none;
 }
 
 #imagecontent3 {
-    position: fixed;
-    background-color: var(--main-bg);
-    text-align: center;
-    z-index: 0;
-    margin: 50px 0px 0px 300px;
-    padding: 20px 20px 20px 20px;
-    width: 760px;
-    height: 560px;
+    position: relative;
+    display: none;
 }
 
 #imagecontent4 {
-    position: fixed;
-    background-color: var(--main-bg);
-    text-align: center;
-    z-index: 0;
-    margin: 50px 0px 0px 300px;
-    padding: 20px 20px 20px 20px;
-    width: 760px;
-    height: 560px;
+    position: relative;
+    display: none;
 }
 
 #imagecontent5 {
-    position: fixed;
-    background-color: var(--main-bg);
-    text-align: center;
-    z-index: 0;
-    margin: 50px 0px 0px 300px;
-    padding: 20px 20px 20px 20px;
-    width: 760px;
-    height: 560px;
+    position: relative;
+    display: none;
 }
 
 .img-links {
     position: fixed;
     overflow: auto;
-    z-index: 100;
-    margin: 50px 0px 0px 1100px;
-    width: 145px;
+    margin: 50px 0px 0px 1050px;
+    width: 195px;
     height: 600px;
+}
+
+.img-links-wrapper {
+    position: relative;
+    margin-left: 50px;
 }
 
 .button {
@@ -156,7 +141,7 @@ body {
     background-color: var(--img-link-bg);
     border: none;
     text-align: center;
-    z-index: 100;
+    z-index: 2;
     padding: 5px 5px 5px 5px;
     width: 140px;
     height: 140px;
@@ -168,10 +153,15 @@ body {
 }
 
 .button:hover {
+    border: none;
     margin-left: -30px;
     padding-right: 20px;
     width: 170px;
     background-color: var(--img-link-bg-h);
+}
+
+.button:visited, .button:active {
+    border: none;
 }
 
 ::-webkit-scrollbar {
