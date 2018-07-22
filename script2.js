@@ -5,23 +5,28 @@ function displayDiv1() {
     var fourth = document.getElementById("imagecontent4")
     var fifth = document.getElementById("imagecontent5")
 
-    var firsti = document.getElementById("infocontent1")
-    var secondi = document.getElementById("infocontent2")
-    var thirdi = document.getElementById("infocontent3")
-    var fourthi = document.getElementById("infocontent4")
-    var fifthi = document.getElementById("infocontent5")
-
     first.style.display = "block";
     second.style.display = "none";
     third.style.display = "none";
     fourth.style.display = "none";
     fifth.style.display = "none";
 
-    firsti.style.display = "block";
-    secondi.style.display = "none";
-    thirdi.style.display = "none";
-    fourthi.style.display = "none";
-    fifthi.style.display = "none";
+}
+
+function displayInfo1() {
+    var info1 = document.getElementById("infocontent1")
+    var info2 = document.getElementById("infocontent2")
+    var info3 = document.getElementById("infocontent3")
+    var info4 = document.getElementById("infocontent4")
+    var info5 = document.getElementById("infocontent5")
+
+    info1.style.display = "block";
+    info2.style.display = "none";
+    info3.style.display = "none";
+    info4.style.display = "none";
+    info5.style.display = "none";
+
+    displayDiv1();
 }
 
 function displayDiv2() {
@@ -31,23 +36,28 @@ function displayDiv2() {
     var fourth = document.getElementById("imagecontent4")
     var fifth = document.getElementById("imagecontent5")
 
-    var firsti = document.getElementById("infocontent1")
-    var secondi = document.getElementById("infocontent2")
-    var thirdi = document.getElementById("infocontent3")
-    var fourthi = document.getElementById("infocontent4")
-    var fifthi = document.getElementById("infocontent5")
-
     first.style.display = "none";
     second.style.display = "block";
     third.style.display = "none";
     fourth.style.display = "none";
     fifth.style.display = "none";
 
-    firsti.style.display = "none";
-    secondi.style.display = "block";
-    thirdi.style.display = "none";
-    fourthi.style.display = "none";
-    fifthi.style.display = "none";
+}
+
+function displayInfo2() {
+    var info1 = document.getElementById("infocontent1")
+    var info2 = document.getElementById("infocontent2")
+    var info3 = document.getElementById("infocontent3")
+    var info4 = document.getElementById("infocontent4")
+    var info5 = document.getElementById("infocontent5")
+
+    info1.style.display = "none";
+    info2.style.display = "block";
+    info3.style.display = "none";
+    info4.style.display = "none";
+    info5.style.display = "none";
+
+    displayDiv2();
 }
 
 function displayDiv3() {
@@ -62,18 +72,22 @@ function displayDiv3() {
     third.style.display = "block";
     fourth.style.display = "none";
     fifth.style.display = "none";
+}
 
-    var firsti = document.getElementById("infocontent1")
-    var secondi = document.getElementById("infocontent2")
-    var thirdi = document.getElementById("infocontent3")
-    var fourthi = document.getElementById("infocontent4")
-    var fifthi = document.getElementById("infocontent5")
+function displayInfo3() {
+    var info1 = document.getElementById("infocontent1")
+    var info2 = document.getElementById("infocontent2")
+    var info3 = document.getElementById("infocontent3")
+    var info4 = document.getElementById("infocontent4")
+    var info5 = document.getElementById("infocontent5")
 
-    firsti.style.display = "none";
-    secondi.style.display = "none";
-    thirdi.style.display = "block";
-    fourthi.style.display = "none";
-    fifthi.style.display = "none";
+    info1.style.display = "none";
+    info2.style.display = "none";
+    info3.style.display = "block";
+    info4.style.display = "none";
+    info5.style.display = "none";
+
+    displayDiv3();
 }
 
 function displayDiv4() {
@@ -88,18 +102,22 @@ function displayDiv4() {
     third.style.display = "none";
     fourth.style.display = "block";
     fifth.style.display = "none";
+}
 
-    var firsti = document.getElementById("infocontent1")
-    var secondi = document.getElementById("infocontent2")
-    var thirdi = document.getElementById("infocontent3")
-    var fourthi = document.getElementById("infocontent4")
-    var fifthi = document.getElementById("infocontent5")
+function displayInfo4() {
+    var info1 = document.getElementById("infocontent1")
+    var info2 = document.getElementById("infocontent2")
+    var info3 = document.getElementById("infocontent3")
+    var info4 = document.getElementById("infocontent4")
+    var info5 = document.getElementById("infocontent5")
 
-    firsti.style.display = "none";
-    secondi.style.display = "none";
-    thirdi.style.display = "none";
-    fourthi.style.display = "block";
-    fifthi.style.display = "none";
+    info1.style.display = "none";
+    info2.style.display = "none";
+    info3.style.display = "none";
+    info4.style.display = "block";
+    info5.style.display = "none";
+
+    displayDiv4();
 }
 
 function displayDiv5() {
@@ -114,16 +132,20 @@ function displayDiv5() {
     third.style.display = "none";
     fourth.style.display = "none";
     fifth.style.display = "block";
+}
 
-    var firsti = document.getElementById("infocontent1")
-    var secondi = document.getElementById("infocontent2")
-    var thirdi = document.getElementById("infocontent3")
-    var fourthi = document.getElementById("infocontent4")
-    var fifthi = document.getElementById("infocontent5")
+function displayInfo5() {
+    var info1 = document.getElementById("infocontent1")
+    var info2 = document.getElementById("infocontent2")
+    var info3 = document.getElementById("infocontent3")
+    var info4 = document.getElementById("infocontent4")
+    var info5 = document.getElementById("infocontent5")
 
-    firsti.style.display = "none";
-    secondi.style.display = "none";
-    thirdi.style.display = "none";
-    fourthi.style.display = "none";
-    fifthi.style.display = "block";
+    info1.style.display = "none";
+    info2.style.display = "none";
+    info3.style.display = "none";
+    info4.style.display = "none";
+    info5.style.display = "block";
+
+    displayDiv5();
 }
