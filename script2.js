@@ -199,8 +199,8 @@ function displayInfo6() {
     info2.style.display = "none";
     info3.style.display = "none";
     info4.style.display = "none";
-    info5.style.display = "block";
-    info6.style.display = "none";
+    info5.style.display = "none";
+    info6.style.display = "block";
 
     displayDiv6();
 }
