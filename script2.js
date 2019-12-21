@@ -202,5 +202,5 @@ function displayInfo6() {
     info5.style.display = "block";
     info6.style.display = "none";
 
-    displayDiv5();
+    displayDiv6();
 }
