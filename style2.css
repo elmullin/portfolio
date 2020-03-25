@@ -83,14 +83,14 @@ body {
     position: fixed;
     color: var(--info-txt);
     background-color: #666666;
-    width: 200px;
+    width: 250px;
     padding-top: 5px;
     padding-right: 10px;
     padding-bottom: 5px;
     padding-left: 10px;
     text-align: right;
     margin-top: 570px;
-    margin-left: 860px;
+    margin-left: 810px;
     z-index: 10;
 }
 
