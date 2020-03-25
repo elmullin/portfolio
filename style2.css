@@ -4,7 +4,7 @@
     --main-bg: #555555;
     --sidebar-bg: #ffffff;
     --sidebar-txt: #000000;
-    --sidebar-link-bg: #222222;
+    --sidebar-link-bg: #333333;
     --sidebar-link-txt: #888888;
     --sidebar-link-bg-h: #444444;
     --sidebar-link-txt-h: #ffffff;
@@ -12,8 +12,8 @@
     --sidebar-link-txt-c: #000000;
     --img-link-bg: #dddddd;
     --img-link-bg-h: #666666;
-    --info-txt: #232323;
-    --accent1: #000000;
+    --info-txt: #959595;
+    --accent1: #425495;
 }
 
 body {
@@ -83,14 +83,14 @@ body {
     position: fixed;
     color: var(--info-txt);
     background-color: #666666;
-    width: 250px;
+    width: 240px;
     padding-top: 5px;
     padding-right: 10px;
     padding-bottom: 5px;
     padding-left: 10px;
     text-align: right;
     margin-top: 570px;
-    margin-left: 810px;
+    margin-left: 820px;
     z-index: 10;
 }
 
