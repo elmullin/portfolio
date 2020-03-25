@@ -137,7 +137,7 @@ body {
 
 #infocontent6 {
     position: relative;
-    display: none !important;
+    display: none;
 }
 
 .preview {
@@ -201,7 +201,7 @@ body {
 
 #imagecontent6 {
     position: relative;
-    display: none !important;
+    display: none;
 }
 
 .img-links {
