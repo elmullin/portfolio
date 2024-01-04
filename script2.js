@@ -264,5 +264,5 @@ function displayInfo7() {
     info6.style.display = "none";
     info7.style.display = "block";
 
-    displayDiv6();
+    displayDiv7();
 }
