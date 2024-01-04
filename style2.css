@@ -142,6 +142,11 @@ body {
     display: none;
 }
 
+#infocontent7 {
+    position: relative;
+    display: none;
+}
+
 .preview {
     position: fixed;
     text-align: center;
@@ -202,6 +207,11 @@ body {
 }
 
 #imagecontent6 {
+    position: relative;
+    display: none;
+}
+
+#imagecontent7 {
     position: relative;
     display: none;
 }
